@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;
+
+}
+
+body {
+   background: linear-gradient(to right, #c31432, #240b36);
+   width: 100vw;
+   height: 100vh;
+}
+
+main {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   position: relative;
+   width: 100vw;
+   height: 100vh;
+}
+
+.caixa-login {
+   background-color: white;
+   text-align: center;
+   padding: 20px;
+   max-width: 400px;
+   max-height: 70vh;
+   position: relative;
+   border-radius: 10px;
+   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main h1 {
+   margin: 20px;
+}
+
+h1 {
+   letter-spacing: 2px;
+
+}
+
+input {
+   font-size: 15px;
+   margin: 20px 0px 10px 0px;
+   width: 300px;
+   outline: none;
+}
+
+.campo {
+   border-bottom: 2px solid rgb(136, 136, 136);
+   border-top: 0px;
+   border-right: 0px;
+   border-left: 0px;
+}
+
+.campo:hover {
+   border-bottom: 2px solid rgb(116, 10, 93);
+}
+
+.botao-submit {
+   margin-top: 20x;
+   margin-bottom: 20px;
+   padding: 8px;
+   cursor: pointer;
+   color: white;
+   border: none;
+   border-radius: 10px;
+   background: linear-gradient(to right, #c31432, #240b36);
+   font-weight: 500;
+   box-shadow: 0px 5px 14px -7px #000000;
+}
+
+.botao-submit:hover {
+   opacity: 0.2;
+   background: linear-gradient(to right, rgb(15, 13, 13), black)
+}
+
+a {
+   color: white;
+   font-weight: 500;
+   text-decoration: none;
+}
+
+button {
+   display: inline-block;
+   border: 1px;
+   border-radius: 8px;
+   padding-top: 8px;
+   padding-bottom: 8px;
+   cursor: pointer;
+}
+
+button:hover {
+   opacity: 0.2;
+   background: linear-gradient(to right, rgb(15, 13, 13), black)
+}
+
+button.botao-twitter {
+   color: white;
+   margin-top: 20px;
+   margin-bottom: 5px;
+   background-color: #00acee;
+   width: 100%;
+   box-shadow: 0px 5px 14px -7px #000000;
+}
+
+button.botao-facebook {
+   color: white;
+   margin-bottom: 5px;
+   background-color: #3b5998;
+   width: 100%;
+   box-shadow: 0px 5px 14px -7px #000000;
+}
